@@ -1,4 +1,4 @@
-# Random place generator using Google Maps API
+# Random place generator
 ## Overview
 This will be the front end for an application that randomly zooms a person aroud the world. 
 
