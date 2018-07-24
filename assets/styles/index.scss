@@ -1,2 +1,66 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body,
+html {
+  height: 100%;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.parallax > h1 {
+  margin: 0;
+  padding: 100px;
+  font-size: 7em;
+  color: #bbb;
+  text-shadow: 4px 4px 8px #111;
+  text-transform: uppercase;
+}
+
+/* **************************** */
+/* STYLES FOR Parallax effect */
+/* **************************** */
+.parallax {
+  /* The image used */
+  background-image: url(../../images/NZroad.jpg);
+  /* Full height */
+  height: 85%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url(../../images/nasa.jpg);
+  height: 80%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* **************************** */
+/* STYLES FOR MAIN SECTION */
+/* **************************** */
+.main {
+  height: 50%;
+}
+
+.content {
+    padding: 50px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+/* **************************** */
+/* STYLES FOR FOOTER */
+/* **************************** */
+footer {
+  background: linear-gradient(#999, #fff 10%);
+  padding: 20px 0;
+}
