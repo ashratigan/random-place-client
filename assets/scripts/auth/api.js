@@ -8,9 +8,9 @@ $('#getPlanetsButton').click(function () {
   return planetId
 })
 
-let placeId = 14645
+let placeId = 0
 $('#getPlacesButton').click(function () {
-  placeId = 14645 + Math.floor(Math.random() * 7321)
+  placeId = Math.floor(Math.random() * 7321)
   return placeId
 })
 
