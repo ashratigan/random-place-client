@@ -19,7 +19,7 @@ const getPlacesSuccess = (data) => {
   console.log(`planets is ${data.place.city}`)
   console.log(`planets is ${data.place.country}`)
   $('#contentH').html(`${data.place.city}!`)
-  $('#contentP').html(`Located in ${data.place.province} ${data.place.country}`)
+  $('#contentP').html(`Located in ${data.place.province}, ${data.place.country}`)
   $('#contentP2').html(`The population is ${data.place.population}`)
   // const showPlacesHtml = showPlacesTemplate({ planets: data })
   // console.log(showPlacesHtml)
