@@ -10,7 +10,7 @@ $('#getPlanetsButton').click(function () {
 
 let placeId = 0
 $('#getPlacesButton').click(function () {
-  placeId = Math.floor(Math.random() * 7321)
+  placeId = Math.floor(Math.random() * 13800)
   return placeId
 })
 
