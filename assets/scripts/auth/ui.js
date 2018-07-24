@@ -7,7 +7,7 @@ const getPlanetsSuccess = (data) => {
   console.log(`planets is ${data.terrain}`)
   $('#contentH').html(`${data.name}`)
   $('#contentP').html(`The climate here is ${data.climate} and the terrain is ${data.terrain}`)
-  $('#contentP2').append(`The population is ${data.pop}`)
+  $('#contentP2').html(`The population is ${data.pop}`)
   // const showPlacesHtml = showPlacesTemplate({ planets: data })
   // console.log(showPlacesHtml)
   // $('.content').html(showPlacesHtml)
