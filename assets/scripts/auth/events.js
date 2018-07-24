@@ -3,6 +3,14 @@
 const api = require('./api.js')
 const ui = require('./ui.js')
 
+const onGetPlanets = (event) => {
+  console.log(event)
+  event.preventDefault()
+  api.getPlanets()
+    .then(ui.getPlanetsSuccess)
+    .catch(ui.failure)
+}
+
 const onGetPlaces = (event) => {
   console.log(event)
   event.preventDefault()
@@ -12,6 +20,7 @@ const onGetPlaces = (event) => {
 }
 
 const addHandlers = () => {
+  $('#getPlanetsButton').on('click', onGetPlanets)
   $('#getPlacesButton').on('click', onGetPlaces)
 }
 
