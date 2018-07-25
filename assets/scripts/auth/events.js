@@ -4,7 +4,6 @@ const api = require('./api.js')
 const ui = require('./ui.js')
 
 const onGetPlanets = (event) => {
-  console.log(event)
   event.preventDefault()
   api.getPlanets()
     .then(ui.getPlanetsSuccess)
@@ -12,7 +11,6 @@ const onGetPlanets = (event) => {
 }
 
 const onGetPlaces = (event) => {
-  console.log(event)
   event.preventDefault()
   api.getPlaces()
     .then(ui.getPlacesSuccess)
