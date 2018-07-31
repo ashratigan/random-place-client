@@ -20,6 +20,8 @@ html {
 
 h2 {
   text-transform: uppercase;
+  color: #111;
+  text-shadow: 4px 4px 8px #bbb;
   font-size: 3em;
 }
 
@@ -64,7 +66,9 @@ h2 {
 }
 
 .content {
-    padding: 50px;
+  padding: 50px;
+  color: #111;
+  text-shadow: 4px 4px 8px #bbb;
 }
 
 /* **************************** */
